@@ -1,4 +1,4 @@
-# <%= title %> Format
+# Personal Quarto Template
 
 ## Installing
 
