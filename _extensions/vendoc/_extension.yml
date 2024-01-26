@@ -9,8 +9,20 @@ contributes:
       toc-location: left
       toc_depth: 3
       code-fold: true
+      code-link: true
       theme: [yeti, custom.scss]
   execute:
     cache: true
+    warning: false
+  embed-resources: true
+  knitr:
+    opts_chunk: 
+      messages: false
+      results: hold
+      fig.show: hold
+      R.options:
+        width: 120
+  project:
+    execute-dir: project
   editor: visual
 
